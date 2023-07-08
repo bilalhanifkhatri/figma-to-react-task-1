@@ -62,7 +62,8 @@ const RightBar = () => {
         </div>
         <div className="secondSec" >Completed</div>
         <div className="thirdSec" >
-          <div className="innerBox" >
+          <div className="innerBox card" >
+            <span className="note" >Rare Find</span>
             <h1>H</h1>
             <h4>Holiday Inn</h4>
             <div>
