@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: blueviolet;
+  }
+}
+
+.App {
+  display: flex;
+}
+
+.sideBar {
+  width: 20%;
+}
+
+.rightBar {
+  min-width: 80%;
+}

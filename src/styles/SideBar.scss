@@ -1,0 +1,51 @@
+.parentSideBar {
+  min-height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.parentSideBar > .aboveDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 1.5rem 1rem;
+
+  > .linksDiv {
+    display: flex;
+    padding-right: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+
+    > .links {
+      font-size: large;
+      padding-bottom: 1rem;
+      font-weight: bold;
+      border-bottom: 1px solid gray;
+    }
+  }
+}
+
+.parentSideBar > .belowDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0.3rem;
+  padding: 0.5rem 2rem;
+
+  > button {
+    color: white;
+    background-color: #4ea371;
+    border: none;
+    padding: 0.7rem 1rem;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+   > h5 {
+    text-align: center;
+
+   }
+}
