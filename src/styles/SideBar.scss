@@ -4,6 +4,16 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  position: relative;
+  > button {
+    display: none;
+    background: transparent;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    font-size: 30px;
+  }
 }
 
 .parentSideBar > .aboveDiv {
@@ -33,7 +43,7 @@
   justify-content: space-around;
   gap: 0.3rem;
   padding: 0.5rem 2rem;
-  font-size: larger;
+  font-size: lar;
 
   > button {
     color: white;
@@ -45,8 +55,7 @@
     border-radius: 8px;
     margin-bottom: 0.5rem;
   }
-   > h5 {
+  > h5 {
     text-align: center;
-
-   }
+  }
 }

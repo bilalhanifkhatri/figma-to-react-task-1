@@ -4,11 +4,16 @@ import RightBar from "./components/RightBar";
 import "./styles/App.scss";
 import "./styles/RightBar.scss";
 import { SiWechat } from "react-icons/si";
+import { VscThreeBars } from "react-icons/vsc";
+import "./styles/MediaQueries.scss";
 
 const App = () => {
   return (
     <>
       <div className="App">
+      <button className="collapse" >
+        <VscThreeBars />
+      </button>
         <div className="sideBar">
           <SideBar />
         </div>

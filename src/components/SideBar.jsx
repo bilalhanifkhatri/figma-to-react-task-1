@@ -1,11 +1,18 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { AiOutlineClose } from "react-icons/ai";
 import "../styles/SideBar.scss";
 
 const SideBar = () => {
+  const [currentDisplay, setCurrentDisplay] = useState("flex");
+  const onCloseButton = () => {
+    setCurrentDisplay("none");
+  };
   return (
     <>
-      <div className="parentSideBar">
+      <div className="parentSideBar" style={{ display: currentDisplay }}>
+        <button onClick={onCloseButton}>
+          <AiOutlineClose />
+        </button>
         <div className="aboveDiv">
           <h1>LODGN</h1>
           <div className="linksDiv">
